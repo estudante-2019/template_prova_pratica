@@ -3,8 +3,8 @@ const prova = {
   docente: 'Pablo Henrique Lima dos Santos',
   curso: 'Técnico em Edificações',
   unidade: 'Projetos Executivos',
-  turma: 'T TED M5',
-  titulo: 'AV3 - Projeto Executivo Completo e Quantitativo de Sistemas Construtivos',
+  turma: 'T TED V2',
+  titulo: 'ATIVIDADE - Projeto Executivo Completo e Quantitativo de Sistemas Construtivos',
   descricao:
     'Nesta atividade avaliativa, o técnico deverá desenvolver um projeto executivo completo a partir de uma planta baixa, contemplando a definição do sistema construtivo e o levantamento de quantitativos de materiais. ' +
     'A atividade contempla interpretação de projetos, cálculos técnicos, aplicação prática de sistemas construtivos e organização de documentação técnica, consolidando a formação profissional do técnico em edificações. ' +
@@ -19,7 +19,10 @@ const prova = {
       contexto:
         'Durante a unidade curricular de Projetos Executivos, foram desenvolvidos conteúdos relacionados à leitura de planta baixa, sistemas construtivos, cálculos de quantitativos e aplicação prática em obra. ' +
         'Como parte final do processo avaliativo, o técnico deverá consolidar todo o conhecimento adquirido por meio da elaboração completa de um projeto executivo, baseado em uma planta fornecida ou própria. ' +
-        'Os conteúdos abordam desde a definição do sistema construtivo até o levantamento de materiais, sendo fundamentais para a atuação profissional em campo.',
+        'Os conteúdos abordam desde a definição do sistema construtivo até o levantamento de materiais, sendo fundamentais para a atuação profissional em campo.\n\nNesta atividade avaliativa, o técnico deverá desenvolver um projeto executivo completo a partir de uma planta baixa, contemplando a definição do sistema construtivo e o levantamento de quantitativos de materiais. ' +
+    'A atividade contempla interpretação de projetos, cálculos técnicos, aplicação prática de sistemas construtivos e organização de documentação técnica, consolidando a formação profissional do técnico em edificações. ' +
+    'Esta não é uma prova tradicional, mas sim uma atividade prática de consolidação e aplicação do conhecimento, revisada e acompanhada em sala de aula. ' +
+    'O técnico poderá consultar os materiais de apoio disponíveis em:\n https://drive.google.com/drive/folders/14nc59J4lV5eqgjK2O7x1ijZ3CiR3VDh4?usp=sharing',
 
       pergunta: `
 Elabore um <b>PROJETO EXECUTIVO COMPLETO</b> a partir de uma planta baixa fornecida ou de sua própria autoria.<br><br>
