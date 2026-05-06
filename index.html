@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avaliação SENAI</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    @media print {
+      body {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      #btn-imprimir {
+        display: none !important;
+      }
+
+      .item-titulo {
+        background-color: #004080 !important;
+        color: white !important;
+      }
+
+      .item-capacidade {
+        color: #004080 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cabecalho">
+    <img src="./assets/img/senai.webp" alt="Logo SENAI" class="logo"/>
+    <table>
+      <tr><td><strong>Data:</strong></td><td id="data"></td><td rowspan="6" class="desempenho">Desempenho</td></tr>
+      <tr><td><strong>Docente:</strong></td><td id="docente"></td></tr>
+      <tr><td><strong>Curso:</strong></td><td id="curso"></td></tr>
+      <tr><td><strong>Unidade Curricular:</strong></td><td id="unidade"></td></tr>
+      <tr><td><strong>Turma:</strong></td><td id="turma"></td></tr>
+      <tr><td><strong>Técnico:</strong></td><td>_______________________________</td></tr>
+    </table>
+  </div>
+
+  <div id="questoes-container"></div>
+
+  <button id="btn-imprimir">⤓</button>
+
+  <script src="dados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
